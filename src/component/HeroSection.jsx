@@ -43,10 +43,10 @@ const HeroForm = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_nbkwv4v',
-      'template_addeicw',
+      'service_8bfyzgm',
+      'template_ne8gxyi',
       e.target,
-      'huAidzDD7U6kzNs-G'
+      'V4NTjeALVRwOf8po5'
     ).then((result) => {
       console.log(result.text);
       alert('Form sent successfully!');
